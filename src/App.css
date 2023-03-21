@@ -1,38 +1,105 @@
-.App {
+body {
+  max-width: 1440px;
+  min-height: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #112B3E;
+}
+
+.navbar {
+  background-color: #112B3E;
+  color: #ffffff;
+}
+
+.content {
+  margin-top: 50px;
+  background-color: #839695;
+}
+
+.card-link{
+  text-decoration: none;
+}
+
+#post-body {
+  padding: 60px 120px 96px 120px;
+}
+
+#posts-card {
+  background-color: #839695;
+  height: 450px;
+}
+
+#post-card {
+  background-color: #839695;
+}
+
+#post-title {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
   text-align: center;
+  color: #FFFFFF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#posts-img {
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#post-img {
+  margin-top: 10px;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#posts-text {
+  height: 100%;
+  min-height: 100px;
+  padding: 5px;
+  background-color: #112B3E;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #FFFFFF;
 }
 
-.App-link {
-  color: #61dafb;
+#post-desc {
+  margin-top: 30px;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.comment-body {
+  margin-top: 30px;
+  background-color: #FFFFFF;
+  padding: 20px 20px 40px 30px;
+}
+
+.comment-body h3 {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+
+#post-comment {
+  margin-top: 20px;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
 }
