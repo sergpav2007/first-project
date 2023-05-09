@@ -7,13 +7,13 @@ import { getDatabase } from "firebase/database";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAI57hwBtOLfbsEZA0QOkdF0TVsgFF5UuI",
-  authDomain: "posts-828d1.firebaseapp.com",
-  databaseURL: "https://posts-828d1-default-rtdb.firebaseio.com",
-  projectId: "posts-828d1",
-  storageBucket: "posts-828d1.appspot.com",
-  messagingSenderId: "358361434376",
-  appId: "1:358361434376:web:a4f8a57aa430b32d1104bd"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 
 // Initialize Firebase
